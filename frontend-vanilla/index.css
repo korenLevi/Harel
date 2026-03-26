@@ -1,0 +1,71 @@
+.create-ticket-form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.create-ticket-form input {
+	display: block;
+	width: 100%;
+}
+
+.create-ticket-form select {
+	display: block;
+	width: 100%;
+}
+
+.create-ticket-form button {
+	display: block;
+	width: 100%;
+}
+
+.table-container {
+	margin-top: 20px;
+}
+
+.table {
+	width: 50%;
+	margin: 0 auto;
+	border-collapse: collapse;
+
+}
+
+thead th {
+	border: 1px solid #000;
+	padding: 5px;
+}
+
+tbody td {
+	border: 1px solid #000;
+	padding: 5px;
+}
+
+.table-header {
+	background-color: #f0f0f0;
+}
+
+.table-body {
+	background-color: #f0f0f0;
+}
+
+.filter-container {
+	display: flex;
+	margin-top: 10px;
+	gap: 10px;
+}
+
+.create-ticket-container {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#save-table-changes {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
